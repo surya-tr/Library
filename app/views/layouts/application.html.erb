@@ -11,10 +11,14 @@
   </head>
 
   <body>
+    <body>
+    <%= link_to "books", books_path%>
+    <%= link_to "students", students_path%>
     <%=render'home/navbar' %>
     <div class='container'>
       <br/>
         <br/>
     <%= yield %>
   </body>
+  <body>
 </html>
